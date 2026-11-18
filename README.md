@@ -22,7 +22,7 @@ To build without serving, run `bundle exec jekyll build`.
 ## Deployment
 
 The GitHub Actions workflow builds Jekyll and deploys to GitHub Pages on pushes to `main`.
-The project URL is <https://i-c-stratigraphy.github.io/subcommission-triassic/>.
+The project URL is <https://stratigraphy.org/subcommission-triassic/>.
 Set `url` and `baseurl` in `_config.yml` when moving to a custom domain.
 
 ## License

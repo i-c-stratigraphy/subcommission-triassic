@@ -2,7 +2,7 @@
 title: Subcommission on Triassic Stratigraphy
 description: The International Commission on Stratigraphy's Subcommission on Triassic
   Stratigraphy.
-url: https://i-c-stratigraphy.github.io
+url: https://stratigraphy.org
 baseurl: "/subcommission-triassic"
 theme: minima
 plugins:
