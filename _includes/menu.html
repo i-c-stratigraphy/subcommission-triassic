@@ -1,0 +1,25 @@
+<style>
+    #menu {
+        list-style-type: square;
+        color: lightgrey;
+    }
+    #menu li {
+        border-bottom: solid 1px lightgrey;
+        padding: 3px;
+        color: lightgrey;
+    }
+    #menu a {
+        color: #444;
+        display:block;
+        text-align:left;
+    }
+    #menu a:hover {
+        background-color: lightgrey;
+    }
+</style>
+<ul id="menu">
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a href="{{ '/executive' | relative_url }}">Executive</a></li>
+    <li><a href="https://stratigraphy.org/chart">ICS Chart</a></li>
+    <li><a href="https://stratigraphy.org/">ICS</a></li>
+</ul>

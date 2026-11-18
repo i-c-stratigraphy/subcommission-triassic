@@ -1,0 +1,15 @@
+---
+title: Subcommission on Triassic Stratigraphy
+description: The International Commission on Stratigraphy's Subcommission on Triassic
+  Stratigraphy.
+url: https://i-c-stratigraphy.github.io
+baseurl: "/subcommission-triassic"
+theme: minima
+plugins:
+- jekyll-feed
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- vendor
+- LICENSE
