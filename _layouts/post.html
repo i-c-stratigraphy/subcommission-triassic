@@ -1,0 +1,9 @@
+---
+layout: page
+---
+<p class="post-meta">
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%e %B %Y" }}</time>
+    {% if page.categories.size > 0 %} · {{ page.categories | join: ', ' | escape }}{% endif %}
+</p>
+{{ content }}
+<p><a href="{{ '/posts' | relative_url }}">All posts</a></p>

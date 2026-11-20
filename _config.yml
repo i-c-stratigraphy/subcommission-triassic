@@ -4,7 +4,6 @@ description: The International Commission on Stratigraphy's Subcommission on Tri
   Stratigraphy.
 url: https://stratigraphy.org
 baseurl: "/subcommission-triassic"
-theme: minima
 plugins:
 - jekyll-feed
 exclude:

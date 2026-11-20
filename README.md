@@ -19,6 +19,9 @@ bundle exec jekyll serve
 Open `http://localhost:4000/subcommission-triassic/`.
 To build without serving, run `bundle exec jekyll build`.
 
+Stop the server with Ctrl+C before starting another instance. If port 4000 is already in use by another application,
+run `bundle exec jekyll serve --port 4001` and open `http://localhost:4001/subcommission-triassic/` instead.
+
 ## Deployment
 
 The GitHub Actions workflow builds Jekyll and deploys to GitHub Pages on pushes to `main`.
